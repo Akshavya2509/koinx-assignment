@@ -1,15 +1,8 @@
 const express = require("express");
 const app = express();
 const axios = require("axios");
-const mongoose = require("mongoose");
 const Transaction = require("./config").default;
 const PORT = process.env.PORT || 3000;
-
-// MongoDB connection setup
-mongoose.connect("mongodb://localhost:27017/crypto_transactions", {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
 
 // Define a MongoDB schema and model for transactions
 const apiUrl = `https://api.etherscan.io/api?module=account&action=balance&address=${ethereumAddress}&tag=latest&apikey=${apiKey}`;
