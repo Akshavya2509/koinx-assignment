@@ -16,6 +16,11 @@ const TransactionSchema = new mongoose.Schema({
   value: String,
   timeStamp: String,
 });
-
+const EthereumPriceSchema = new mongoose.Schema({
+  price: Number,
+  timestamp: { type: Date, default: Date.now },
+});
 const Transaction = new mongoose.model("users", TransactionSchema);
+const Ethereum = new mongoose.model("price", EthereumPriceSchema);
 module.exports = Transaction;
+module.exports = Ethereum;
