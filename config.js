@@ -22,5 +22,4 @@ const EthereumPriceSchema = new mongoose.Schema({
 });
 const Transaction = new mongoose.model("users", TransactionSchema);
 const Ethereum = new mongoose.model("price", EthereumPriceSchema);
-module.exports = Transaction;
-module.exports = Ethereum;
+module.exports = { Transaction, Ethereum };
