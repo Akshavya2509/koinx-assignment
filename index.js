@@ -14,7 +14,7 @@ async function fetchAndStoreEthereumPrice() {
     );
     const ethereumPriceInINR = response.data.ethereum.inr;
 
-    const ethereumPriceEntry = new EthereumPrice({ price: ethereumPriceInINR });
+    const ethereumPriceEntry = new Ethereum({ price: ethereumPriceInINR });
     await ethereumPriceEntry.save();
 
     console.log(`Ethereum price fetched and stored: ${ethereumPriceInINR} INR`);
