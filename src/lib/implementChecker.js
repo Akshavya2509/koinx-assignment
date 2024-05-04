@@ -1,3 +1,6 @@
+const express = require("express");
+const axios = require("axios");
+const Ethereum = require("../models/ethereumPriceSchema");
 async function fetchAndStoreEthereumPrice() {
   try {
     const response = await axios.get(

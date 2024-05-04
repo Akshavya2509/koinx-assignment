@@ -6,18 +6,13 @@ const transactionRoute = require("./routes/transactionRoute");
 require("dotenv").config();
 const PORT = process.env.PORT;
 
-connect;
-priceupdater;
+connect();
+priceupdater();
 
 app.use(express.json());
 const route = new transactionRoute();
 
 app.use("/transact", route.routes());
-app.all("*", (req, res) => {
-  res.status(404).json({
-    message: "Invalid route",
-  });
-});
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);

@@ -1,5 +1,5 @@
-const TransactionController = require("../controllers/transactionController");
 const { Router } = require("express");
+const TransactionController = require("../controllers/transactionController");
 
 class TransactionRoute {
   constructor() {
