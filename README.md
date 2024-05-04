@@ -51,7 +51,7 @@ koinx-assignment-production.up.railway.app/user/getUserTransactions
 ```
 
 Example usage:
-![Task1](https://drive.google.com/file/d/1OWLbaHJKY9R0Z3DXNVk813cLjyjAqBYh/view?usp=drive_link)
+![Task1](https://asset.cloudinary.com/ds5wmytro/6687fa5ab5b84d96b4ded0f470bc12ba)
 
 - A Cron job has been set up to fetch the data from the Gecko API at a 10-minutes interval. The cron job function can be found at `src/lib/implementChecker.js` and is called in app.js from `src/cron/checkEthereumPrice.js`.
 
@@ -62,6 +62,6 @@ koinx-assignment-production.up.railway.app/user/getUserBalance?address=0xce94e56
 ```
 
 Example usage:
-![Task3](https://drive.google.com/file/d/1Lau3rEkz5aSWwcCCST0zEYGqlG84y67I/view?usp=drive_link)
+![Task3](https://asset.cloudinary.com/ds5wmytro/df0eeda7c2505c9db89e3930e08e11b0)
 
-Replace `https://koinx-production.up.railway.app` with `http://localhost:3000` for local testing
+Replace `koinx-assignment-production.up.railway.app` with `http://localhost:3000` for local testing
