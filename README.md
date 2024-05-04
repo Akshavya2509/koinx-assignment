@@ -47,21 +47,21 @@ nodemon src/app.js
 - To fetch the user transactions, use the following endpoint:
 
 ```
-http://localhost:3000/user/getUserTransactions.
+koinx-assignment-production.up.railway.app/user/getUserTransactions
 ```
+
+Example usage:
+![Task1](https://drive.google.com/file/d/1OWLbaHJKY9R0Z3DXNVk813cLjyjAqBYh/view?usp=drive_link)
 
 - A Cron job has been set up to fetch the data from the Gecko API at a 10-minutes interval. The cron job function can be found at `src/lib/implementChecker.js` and is called in app.js from `src/cron/checkEthereumPrice.js`.
 
 - For fetching the current user balance and current price of ether, use the following endpoint:
 
 ```
-
+koinx-assignment-production.up.railway.app/user/getUserBalance?address=0xce94e5621a5f7068253c42558c147480f38b5e0d
 ```
 
 Example usage:
-
-```
-/Users/macbook/Desktop/Screenshot 2024-05-04 at 6.23.08 PM.png
-```
+![Task3](https://drive.google.com/file/d/1Lau3rEkz5aSWwcCCST0zEYGqlG84y67I/view?usp=drive_link)
 
 Replace `https://koinx-production.up.railway.app` with `http://localhost:3000` for local testing
