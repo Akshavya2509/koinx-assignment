@@ -1,6 +1,6 @@
 # koinx-blockchain-backend-assignment
 
-How to use locally?
+**How to use locally?**
 - Clone the repository
 ```
 git clone https://github.com/Akshavya2509/koinx-blockchain-backend-assignment.git
@@ -15,7 +15,7 @@ git clone https://github.com/Akshavya2509/koinx-blockchain-backend-assignment.gi
 ```
 nodemon src/app.js
 ```
-Folder Structure:
+**Folder Structure:**
 ```
 └── 📁src
     └── app.js 
@@ -33,7 +33,7 @@ Folder Structure:
     └── 📁routes
         └── transactionRoute.js
 ```
-Tasks:
+**Tasks:**
 
 
 - To fetch the user transactions, use the following endpoint: 
