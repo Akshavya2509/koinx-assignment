@@ -46,4 +46,9 @@ http://localhost:3000/user/getUserTransactions.
 ```
 http://localhost:3000/user/getUserBalance?address=0xce94e5621a5f7068253c42558c147480f38b5e0d.
 ```
+Example usage:
+```
+![image](https://github.com/Akshavya2509/koinx-assignment/assets/97899039/682ede87-4bb7-4fe3-b657-886762ed78c9)
+```
+
 Replace ```https://koinx-production.up.railway.app``` with ```http://localhost:3000``` for local testing
