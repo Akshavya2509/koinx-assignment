@@ -61,7 +61,7 @@ http://localhost:3000/user/getUserTransactions.
 Example usage:
 
 ```
-![alt text](image.png)
+/Users/macbook/Desktop/Screenshot 2024-05-04 at 6.23.08 PM.png
 ```
 
 Replace `https://koinx-production.up.railway.app` with `http://localhost:3000` for local testing
