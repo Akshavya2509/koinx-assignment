@@ -9,7 +9,7 @@ git clone https://github.com/Akshavya2509/koinx-blockchain-backend-assignment.gi
 ```
 <package_manager> install
 ```
-- The env file is already included in the repository along with the env variables API_KEY, DB_URL, PORT and ADDRESS. The MongoDB instance has been deployed on Atlas. Incase you wish to use mongodb locally you can use the url 'mongodb://localhost:27017/' instead of the one mentioned in the .env.
+- The env file is already included in the repository along with the env variables ```API_KEY, DB_URL, PORT and ADDRESS```. The MongoDB instance has been deployed on Atlas. Incase you wish to use mongodb locally you can use the url ```'mongodb://localhost:27017/'``` instead of the one mentioned in the .env.
 
 - To run the application use the command
 ```
@@ -40,10 +40,10 @@ nodemon src/app.js
 ```
 http://localhost:3000/user/getUserTransactions.
 ```
-- A Cron job has been set up to fetch the data from the Gecko API at a 10-minutes interval. The cron job function can be found at src/lib/implementChecker.js and is called in app.js from src/cron/checkEthereumPrice.js.
+- A Cron job has been set up to fetch the data from the Gecko API at a 10-minutes interval. The cron job function can be found at ```src/lib/implementChecker.js``` and is called in app.js from ```src/cron/checkEthereumPrice.js```.
 
 - For fetching the current user balance and current price of ether, use the following endpoint: 
 ```
 http://localhost:3000/user/getUserBalance?address=0xce94e5621a5f7068253c42558c147480f38b5e0d.
 ```
-Replace https://koinx-production.up.railway.app with http://localhost:3000 for local testing
+Replace ```https://koinx-production.up.railway.app``` with ```http://localhost:3000``` for local testing
