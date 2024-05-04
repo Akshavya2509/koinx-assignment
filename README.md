@@ -51,7 +51,7 @@ koinx-assignment-production.up.railway.app/user/getUserTransactions
 ```
 
 Example usage:
-![Task1](https://asset.cloudinary.com/ds5wmytro/6687fa5ab5b84d96b4ded0f470bc12ba "Example usage")
+![TASK 1](https://github.com/Akshavya2509/koinx-assignment/assets/97899039/4f969217-c9ab-42f5-b6ae-4399092ac4e6)
 
 - A Cron job has been set up to fetch the data from the Gecko API at a 10-minutes interval. The cron job function can be found at `src/lib/implementChecker.js` and is called in app.js from `src/cron/checkEthereumPrice.js`.
 
