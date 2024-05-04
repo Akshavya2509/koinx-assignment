@@ -12,7 +12,7 @@ priceupdater();
 app.use(express.json());
 const route = new transactionRoute();
 
-app.use("/transact", route.routes());
+app.use("/user", route.routes());
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
